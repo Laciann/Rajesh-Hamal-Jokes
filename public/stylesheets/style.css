@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+input{
+  width: 14rem;
+  height: 8rem;
+  font-size: 2rem;
+  border: none;
+  color: aliceblue;
+  background-color: blueviolet;
+  position: absolute;
+  bottom:8rem;
+  right:2rem;
+}
+
+input:focus{
+  outline:none;
+}

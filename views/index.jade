@@ -1,0 +1,13 @@
+extends layout
+block content
+  script.
+    function GetJoke()
+    {
+      let jokesArray = !{jokes};
+      let randomNo = Math.round(Math.random() * (jokesArray.length-1));
+      let randomJoke = jokesArray[randomNo];
+      document.getElementById("joke").innerHTML=randomJoke;
+    }
+   
+  h1#joke Rajesh Hamal CAN find the end of a circle.
+  input(type="button",value="Random", id="btn", onclick="GetJoke()")
